@@ -2,8 +2,7 @@ import time
 from telnetlib import Telnet
 import select
 import socket
-from typing import Optional, Tuple, Dict, List, Union, Any
-import re
+from typing import Optional, Dict, Any
 
 
 class MV0401_Device:

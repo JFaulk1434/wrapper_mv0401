@@ -10,7 +10,7 @@ authors = [{ name = "Justin Faulk" }]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = ["telnetlib-313-and-up"]
-license = { text = "MIT" }
+license = "MIT"
 
 [tool.setuptools]
 packages = ["mv0401"]
