@@ -1,5 +1,4 @@
-from MV0401 import MV0401_Device
-import json
+from mv0401 import MV0401_Device
 from pprint import pprint
 
 

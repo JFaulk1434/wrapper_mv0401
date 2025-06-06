@@ -5,8 +5,7 @@ import os
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from mv0401.MV0401 import MV0401_Device
-from typing import Dict, Any
+from mv0401.mv0401 import MV0401_Device
 
 
 class TestMV0401(unittest.TestCase):
