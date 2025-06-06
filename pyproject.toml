@@ -8,5 +8,9 @@ version = "0.1.0"
 description = "Python Telnet wrapper for the MV0401 device"
 authors = [{ name = "Justin Faulk" }]
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.13"
+dependencies = ["telnetlib-313-and-up"]
 license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["MV0401"]
