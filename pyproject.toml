@@ -13,4 +13,4 @@ dependencies = ["telnetlib-313-and-up"]
 license = { text = "MIT" }
 
 [tool.setuptools]
-packages = ["MV0401"]
+packages = ["mv0401"]
